@@ -285,12 +285,12 @@ a {
   text-decoration: none;
 }
 
-q {
+.d-quote {
   position: relative;
   width: 70%;
 }
 
-q::before {
+.d-quote::before {
   position: absolute;
   top: -20px;
   height: 30px;
@@ -299,7 +299,7 @@ q::before {
   font-size: clamp(4rem, 5vw, 6rem);
 }
 
-q::after {
+.d-quote::after {
   content: "";
 }
 
